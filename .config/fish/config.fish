@@ -1,6 +1,6 @@
 #  ____   ____
 # |  _ \ / __ \		Bubsy Orange
-# | |_) | |  | |	https://codeberg.org/BubsyOrange
+# | |_) | |  | |	https://github.com/BubsyOrange
 # |  _ <| |  | |
 # | |_) | |__| |
 # |____/ \____/ 
