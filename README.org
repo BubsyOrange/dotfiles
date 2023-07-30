@@ -4,6 +4,3 @@
 
 Dotfiles are configuration files used on Linux or any Unix-based system. You can tell if a file is a dotfile because it starts with a period--in other words, a dot! The period at the beginning of the filename or directory
 indicates that it is a hidden file or directory. This repository contains my own personal dotfiles that I use.
-
-* LICENSE
-This repository is licensed under the MIT License.
