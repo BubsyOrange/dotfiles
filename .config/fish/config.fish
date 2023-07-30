@@ -16,7 +16,6 @@ set fish_greeting				# Supresses fish intro message
 set TERM "xterm-256color"                       # Sets the terminal type
 set EDITOR "emacsclient -t -a ''"		# $EDITOR use Emacs in terminal
 set VISUAL "emacsclient -c -a emacs"		# $VISUAL use Emacs in GUI mode
-set -x GPG_TTY (tty)
 
 ## ALIASES ##
 
