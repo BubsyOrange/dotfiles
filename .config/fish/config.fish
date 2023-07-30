@@ -9,7 +9,7 @@
 
 ## PATHS ##
 set -e fish_user_paths
-set -U fish_user_paths $HOME/.bin $HOME/.local/bin $HOME/Applications $HOME/.cargo/bin $fish_user_paths
+set -U fish_user_paths $HOME/.bin $HOME/.local/bin $HOME/.config/emacs/bin $HOME/Applications $HOME/.cargo/bin $fish_user_paths
 
 ## EXPORT ##
 set fish_greeting				# Supresses fish intro message

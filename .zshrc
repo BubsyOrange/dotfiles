@@ -26,6 +26,11 @@ if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
 fi
 
+if [ -d "$HOME/.config/emacs/bin" ] ;
+  then PATH="$HOME/.config/emacs/bin:$PATH"
+fi
+
+
 if [ -d "$HOME/Applications" ] ;
   then PATH="$HOME/Applications:$PATH"
 fi
