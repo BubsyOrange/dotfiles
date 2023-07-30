@@ -1,0 +1,10 @@
+format = '$all'
+
+[directory]
+style = 'bold purple'
+read_only_style = 'bold red'
+
+[character]
+success_symbol = '[❯](blue)'
+error_symbol = '[❯](red)'
+vicmd_symbol = "[❮](green)"

@@ -1,0 +1,10 @@
+import = ["/home/bubsy/.config/alacritty/themes/catppuccin-macchiato.toml"]
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "Quit"
+key = "W"
+mods = "Control|Shift"
