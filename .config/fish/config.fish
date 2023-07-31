@@ -82,7 +82,7 @@ alias ytv-best="yt-dlp -f bestvideo+bestaudio "
 starship init fish | source
 
 ## HOMEBREW ##
-set -g fish_user_paths "/home/linuxbrew/.linuxbrew/bin" $fish_user_paths
+set -g fish_user_paths "/home/linuxbrew/.linuxbrew/bin" "/home/linuxbrew/.linuxbrew/sbin" $fish_user_paths
 
 # Disable Analytics
 set -gx HOMEBREW_NO_ANALYTICS "1"
