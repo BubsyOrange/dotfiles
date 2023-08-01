@@ -21,3 +21,6 @@ keymap.set("n", "<leader>fr", "<cmd>Telescope oldfiles<cr>")
 keymap.set("n", '<leader>fg', "<cmd>Telescope live_grep<cr>")
 keymap.set("n", '<leader>fb', "<cmd>Telescope file_browser<cr>")
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>")
+
+-- Toggleterm
+keymap.set("n", "<leader>tv", "<cmd>ToggleTerm<CR>") -- Toggles terminal within Neovim
