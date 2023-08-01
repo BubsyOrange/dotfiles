@@ -62,6 +62,8 @@ local plugins = {
      "nvim-treesitter/nvim-treesitter",
 
     "nvim-orgmode/orgmode",
+
+   {"akinsho/toggleterm.nvim", version = "*", config = true},
 }
 
 require("lazy").setup(plugins)
