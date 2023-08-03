@@ -64,6 +64,8 @@ local plugins = {
     "nvim-orgmode/orgmode",
 
    {"akinsho/toggleterm.nvim", version = "*", config = true},
+
+   "nvimdev/dashboard-nvim",
 }
 
 require("lazy").setup(plugins)
