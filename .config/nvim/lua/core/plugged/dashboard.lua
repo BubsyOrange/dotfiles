@@ -55,6 +55,16 @@ require('dashboard').setup({
       key_hl = 'Number',
       action = 'Telescope live_grep',
     },
+    {
+      icon = '󰐥 ',
+      icon_hl = 'Title',
+      desc = 'Quit',
+      desc_hl = 'String',
+      key = 'q',
+      keymap = ':q!',
+      key_hl = 'Number',
+      action = ':quit',
+    },
   },
   footer = { "", "Have a nice day!" },
 }
