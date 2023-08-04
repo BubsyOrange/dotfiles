@@ -7,7 +7,7 @@
 #
 # My Zsh config. Nothing too fancy.
 
-## EXPORT ##
+### EXPORT
 export TERM="xterm-256color"                      # getting proper colors
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 export EDITOR="emacsclient -t -a ''"              # $EDITOR use Emacs in terminal
@@ -16,7 +16,7 @@ export VISUAL="emacsclient -c -a emacs"           # $VISUAL use Emacs in GUI mod
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-## PATH
+### PATH
 if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
@@ -34,7 +34,7 @@ if [ -d "$HOME/Applications" ] ;
   then PATH="$HOME/Applications:$PATH"
 fi
 
-## SETTING OTHER ENVIRONMENT VARIABLES
+### SETTING OTHER ENVIRONMENT VARIABLES
 if [ -z "$XDG_CONFIG_HOME" ] ; then
     export XDG_CONFIG_HOME="$HOME/.config"
 fi
@@ -45,7 +45,7 @@ if [ -z "$XDG_CACHE_HOME" ] ; then
     export XDG_CACHE_HOME="$HOME/.cache"
 fi
 
-## CHANGE TITLE OF TERMINALS
+### CHANGE TITLE OF TERMINALS
 case ${TERM} in
   xterm*|rxvt*|Eterm*|aterm|kterm|gnome*|alacritty|st|konsole*)
     PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\007"'
@@ -98,7 +98,7 @@ fi
 
 IFS=$SAVEIFS
 
-## ALIASES ##
+### ALIASES
 
 # Navigation
 up () {
@@ -185,9 +185,9 @@ alias yta-vorbis="yt-dlp --extract-audio --audio-format vorbis "
 alias yta-wav="yt-dlp --extract-audio --audio-format wav "
 alias ytv-best="yt-dlp -f bestvideo+bestaudio "
 
-## SET STARSHIP PROMPT ##
+### SET STARSHIP PROMPT
 eval "$(starship init zsh)"
 
-## ALCRITTY COMPLETITIONS ##
+### ALCRITTY COMPLETITIONS
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 

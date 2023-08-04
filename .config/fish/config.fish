@@ -7,17 +7,17 @@
 #               
 # My Fish config. Nothing too fancy.
 
-## PATHS ##
+### PATHS
 set -e fish_user_paths
 set -U fish_user_paths $HOME/.bin $HOME/.local/bin $HOME/.config/emacs/bin $HOME/Applications $HOME/.cargo/bin $fish_user_paths
 
-## EXPORT ##
+## EXPORT
 set fish_greeting				# Supresses fish intro message
 set TERM "xterm-256color"                       # Sets the terminal type
 set EDITOR "emacsclient -t -a ''"		# $EDITOR use Emacs in terminal
 set VISUAL "emacsclient -c -a emacs"		# $VISUAL use Emacs in GUI mode
 
-## ALIASES ##
+### ALIASES
 
 # Vim and Emacs
 alias vim='nvim'
@@ -78,10 +78,10 @@ alias yta-vorbis="yt-dlp --extract-audio --audio-format vorbis "
 alias yta-wav="yt-dlp --extract-audio --audio-format wav "
 alias ytv-best="yt-dlp -f bestvideo+bestaudio "
 
-## SET STARSHIP PROMPT ##
+### SET STARSHIP PROMPT
 starship init fish | source
 
-## HOMEBREW ##
+### HOMEBREW
 set -g fish_user_paths "/home/linuxbrew/.linuxbrew/bin" "/home/linuxbrew/.linuxbrew/sbin" $fish_user_paths
 
 # Disable Analytics
