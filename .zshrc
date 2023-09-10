@@ -168,11 +168,11 @@ alias playflac='deadbeef *.flac'
 alias playm4a='deadbeef *.m4a'
 
 # Play video files in current dir by type
-alias playavi='celluloid *.avi'
-alias playmov='celluloid *.mov'
-alias playmp4='celluloid *.mp4'
-alias playmkv='celluloid *.mkv'
-alias playwebm='celluloid *.webm'
+alias playavi='vlc *.avi'
+alias playmov='vlc *.mov'
+alias playmp4='vlc *.mp4'
+alias playmkv='vlc *.mkv'
+alias playwebm='vlc *.webm'
 
 # yt-dlp
 alias yta-aac="yt-dlp --extract-audio --audio-format aac "
