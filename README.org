@@ -1,5 +1,7 @@
 #+TITLE: Bubsy's Dotfiles
 
+A collection of my own personal configuartion files.
+
 * What Are Dotfiles?
 
 Dotfiles are configuration files used on Linux or any Unix-based system. You can tell if a file is a dotfile because it starts with a period--in other words, a dot! The period at the beginning of the filename or directory
