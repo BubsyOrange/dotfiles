@@ -161,11 +161,11 @@ alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
 # Play audio files in current dir by type
-alias playwav='deadbeef *.wav'
-alias playogg='deadbeef *.ogg'
-alias playmp3='deadbeef *.mp3'
-alias playflac='deadbeef *.flac'
-alias playm4a='deadbeef *.m4a'
+alias playwav='vlc *.wav'
+alias playogg='vlc *.ogg'
+alias playmp3='vlc *.mp3'
+alias playflac='vlc *.flac'
+alias playm4a='vlc *.m4a'
 
 # Play video files in current dir by type
 alias playavi='vlc *.avi'
