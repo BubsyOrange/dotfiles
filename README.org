@@ -1,6 +1,6 @@
 #+TITLE: Bubsy's Dotfiles
 
-A collection of my own personal configuartion files.
+A collection of my own personal configuration files.
 
 * What Are Dotfiles?
 
