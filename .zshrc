@@ -12,6 +12,7 @@ export TERM="xterm-256color"                      # getting proper colors
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 export EDITOR="emacsclient -t -a ''"              # $EDITOR use Emacs in terminal
 export VISUAL="emacsclient -c -a emacs"           # $VISUAL use Emacs in GUI mode
+export GPG_TTY=$(tty)                             # Sign commits with GPG
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
