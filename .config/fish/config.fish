@@ -16,20 +16,21 @@ set fish_greeting				# Supresses fish intro message
 set TERM "xterm-256color"                       # Sets the terminal type
 set EDITOR "emacsclient -t -a ''"		# $EDITOR use Emacs in terminal
 set VISUAL "emacsclient -c -a emacs"		# $VISUAL use Emacs in GUI mode
+set -gx GPG_TTY (tty)
 
 ### ALIASES
 
 # Vim and Emacs
 alias vim='nvim'
-alias em='/usr/bin/emacs -nw'
+alias em='/usr/local/bin/emacs -nw'
 alias emacs="emacsclient -c -a 'emacs'"
 
-# Changing "ls" to "exa"
-alias ls='exa -al --color=always --group-directories-first' # my preferred listing
-alias la='exa -a --color=always --group-directories-first'  # all files and dirs
-alias ll='exa -l --color=always --group-directories-first'  # long format
-alias lt='exa -aT --color=always --group-directories-first' # tree listing
-alias l.='exa -a | egrep "^\."'
+# Changing "ls" to "eza"
+alias ls='eza -al --color=always --group-directories-first' # my preferred listing
+alias la='eza -a --color=always --group-directories-first'  # all files and dirs
+alias ll='eza -l --color=always --group-directories-first'  # long format
+alias lt='eza -aT --color=always --group-directories-first' # tree listing
+alias l.='eza -a | egrep "^\."'
 
 # Git
 alias addup='git add -u'

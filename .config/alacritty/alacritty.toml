@@ -1,4 +1,4 @@
-import = ["/home/bubsy/.config/alacritty/themes/catppuccin-macchiato.toml"]
+import = ["/home/bubsy/.config/alacritty/themes/catppuccin-latte.toml"]
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"
