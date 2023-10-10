@@ -55,18 +55,18 @@ alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
 # Play audio files in current dir by type
-alias playwav='vlc *.wav'
-alias playogg='vlc *.ogg'
-alias playmp3='vlc *.mp3'
-alias playflac='vlc *.flac'
-alias playm4a='vlc *.m4a'
+alias playwav='celluloid *.wav'
+alias playogg='celluloid *.ogg'
+alias playmp3='celluloid *.mp3'
+alias playflac='celluloid *.flac'
+alias playm4a='celluloid *.m4a'
 
 # Play video files in current dir by type
-alias playavi='vlc *.avi'
-alias playmov='vlc *.mov'
-alias playmp4='vlc *.mp4'
-alias playmkv='vlc *.mkv'
-alias playwebm='vlc *.webm'
+alias playavi='celluloid *.avi'
+alias playmov='celluloid *.mov'
+alias playmp4='celluloid *.mp4'
+alias playmkv='celluloid *.mkv'
+alias playwebm='celluloid *.webm'
 
 # yt-dlp
 alias yta-aac="yt-dlp --extract-audio --audio-format aac "
@@ -81,9 +81,3 @@ alias ytv-best="yt-dlp -f bestvideo+bestaudio "
 
 ### SET STARSHIP PROMPT
 starship init fish | source
-
-### HOMEBREW
-set -g fish_user_paths "/home/linuxbrew/.linuxbrew/bin" "/home/linuxbrew/.linuxbrew/sbin" $fish_user_paths
-
-# Disable Analytics
-set -gx HOMEBREW_NO_ANALYTICS "1"
