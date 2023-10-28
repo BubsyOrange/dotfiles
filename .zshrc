@@ -162,18 +162,18 @@ alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
 # Play audio files in current dir by type
-alias playwav='celluloid *.wav'
-alias playogg='celluloid *.ogg'
-alias playmp3='celluloid *.mp3'
-alias playflac='celluloid *.flac'
-alias playm4a='celluloid *.m4a'
+alias playwav='mpv *.wav'
+alias playogg='mpv *.ogg'
+alias playmp3='mpv *.mp3'
+alias playflac='mpv *.flac'
+alias playm4a='mpv *.m4a'
 
 # Play video files in current dir by type
-alias playavi='celluloid *.avi'
-alias playmov='celluloid *.mov'
-alias playmp4='celluloid *.mp4'
-alias playmkv='celluloid *.mkv'
-alias playwebm='celluloid *.webm'
+alias playavi='mpv *.avi'
+alias playmov='mpv *.mov'
+alias playmp4='mpv *.mp4'
+alias playmkv='mpv *.mkv'
+alias playwebm='mpv *.webm'
 
 # yt-dlp
 alias yta-aac="yt-dlp --extract-audio --audio-format aac "
