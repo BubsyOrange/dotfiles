@@ -1,3 +1,12 @@
-# Fish-related files and paths
+# Fish
 .config/fish/completions/
 .config/fish/fish_variables
+.config/fish/fish_plugins
+.config/fish/functions/
+
+# Neovim
+.config/nvim/lazy-lock.json
+
+# mpv
+.config/mpv/scripts
+.config/mpv/screenshots
