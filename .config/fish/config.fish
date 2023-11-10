@@ -9,14 +9,13 @@
 
 ### PATHS
 set -e fish_user_paths
-set -U fish_user_paths $HOME/.bin $HOME/.local/bin $HOME/.config/emacs/bin $HOME/Applications $HOME/.cargo/bin $fish_user_paths
+set -U fish_user_paths $HOME/.bin $HOME/.local/bin $HOME/.config/emacs/bin $HOME/Applications $fish_user_paths
 
 ## EXPORT
 set fish_greeting				# Supresses fish intro message
 set TERM "xterm-256color"                       # Sets the terminal type
 set EDITOR "emacsclient -t -a ''"		# $EDITOR use Emacs in terminal
 set VISUAL "emacsclient -c -a emacs"		# $VISUAL use Emacs in GUI mode
-set -gx GPG_TTY (tty)
 
 ### ALIASES
 
@@ -34,7 +33,7 @@ alias l.='eza -a | egrep "^\."'
 
 # Git
 alias addup='git add -u'
-alias addall='git add .'
+alias addall='git add -A'
 alias branch='git branch'
 alias checkout='git checkout'
 alias clone='git clone'
@@ -42,6 +41,7 @@ alias commit='git commit -S -m'
 alias fetch='git fetch'
 alias pull='git pull origin'
 alias push='git push -u origin'
+alias stat='git status'
 alias tag='git tag'
 alias newtag='git tag -a'
 
