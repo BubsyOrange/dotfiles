@@ -1,4 +1,4 @@
-#+TITLE: Bubsy's Dotfiles
+#+TITLE: Hugo's Dotfiles
 
 A collection of my own personal configuration files.
 
